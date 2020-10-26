@@ -1,0 +1,26 @@
+{
+    "name": "babak/notification",
+    "description": "send notifications",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Babak",
+            "email": "sabri@kayer.co.ir"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+	"extra": {
+		"laravel": {
+			"providers": [
+				"Kayer\\Notification\\NotificationServiceProvider"
+			]
+		}
+	},
+	"autoload": {
+        "psr-4": {
+            "Kayer\\Notification\\": "src/"
+        }
+    }
+}

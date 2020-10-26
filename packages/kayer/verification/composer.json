@@ -1,0 +1,26 @@
+{
+    "name": "babak/verification",
+    "description": "user cellphone or email verification",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Babak Sabri",
+            "email": "sabri@kayer.co.ir"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+	"extra": {
+		"laravel": {
+			"providers": [
+				"Kayer\\Verification\\VerificationServiceProvider"
+			]
+		}
+	},
+	"autoload": {
+        "psr-4": {
+            "Kayer\\Verification\\": "src/"
+        }
+    }
+}

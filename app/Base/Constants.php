@@ -1,0 +1,19 @@
+<?php
+define('FARSI_LANGUAGE',		'fa'		);
+define('ENGLISH_LANGUAGE',		'en'		);
+define('JALALI_CALENDER',		'JALALI'	);
+define('GREGORIAN_CALENDAR',	'GREGORIAN'	);
+define('ADMIN_USER',			'admin'		);
+define('CUSTOMER_USER',			'customer'	);
+define('MALE_GENDER',			'male'		);
+define('FEMALE_GENDER',			'female'	);
+define('ACTIVE_STATUS',			1			);
+define('INACTIVE_STATUS',		0			);
+define('API_SEPARATOR',			'___'		);
+define('SMS',					1			);
+define('EMAIL',					2			);
+define('ITEM',					3			);
+define('TEMPLATE',				4			);
+define('PERMANENT',				1			);
+define('COUNTABLE',				2			);
+define('DEFAULT_RECORD_COUNT',	10			);

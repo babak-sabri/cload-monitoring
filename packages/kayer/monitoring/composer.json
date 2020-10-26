@@ -1,0 +1,26 @@
+{
+    "name": "babak/monitoring",
+    "description": "Monitoring APIs",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Babak Sabri",
+            "email": "sabri@kayer.co.ir"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+	"extra": {
+		"laravel": {
+			"providers": [
+				"Kayer\\Monitoring\\Providers\\MonitoringServiceProvider"
+			]
+		}
+	},
+	"autoload": {
+        "psr-4": {
+            "Kayer\\Monitoring\\": "src/"
+        }
+    }
+}
